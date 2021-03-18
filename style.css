@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "KCRudeLife";
+  src: url("../fonts/KCRudeLife.otf") format("opentype");
+}
+.place-image img{height: 100%;}
+.place-image{overflow:hidden;}
+
 * {box-sizing: border-box;}
 body { margin:0;}
 
@@ -9,8 +16,9 @@ html, body, #page-one, #page-two, #page-three, #page-four {
 #page-one, #page-two, #page-three, #page-four {padding-top:2em;}
 
 #mainNav {
-  background-color: #668AE4;
-  color: #ddd;
+  font-family: Arial;
+  background-color: rgb(255, 143, 28);
+  color: rgb(0, 0, 0);
   line-height:4em;
   padding:0 1em;
   position:fixed; 
@@ -20,7 +28,7 @@ html, body, #page-one, #page-two, #page-three, #page-four {
 
 #mainNav {
   a, a:link, a:visited, a:hover, a:active {
-    color:#eee; 
+    color:(255,143,28); 
     text-decoration:none;
     display:inline-block;
     padding:0 1em;
@@ -28,9 +36,21 @@ html, body, #page-one, #page-two, #page-three, #page-four {
   a:hover {color: #4861A2;}
 }
 
-h2 {font-size:3em; padding-top:1em; text-align:center;}
+h2 {font-family:"KCRudeLife";
+  font-size:3em; 
+  color: rgb(0, 172, 171);
+  padding-top:1em; 
+  text-align:center;}
 
-#page-one {background-color:#fff;}
-#page-two {background-color:#ccc;}
-#page-three {background-color:#aaa;}
-#page-four {background-color:#888;}
+#page-one {background-color:rgb(0, 0, 0);
+  background-image: url("../images/BD.gif");
+  background-size: 1000px;
+  background-position: center center;
+}
+#page-two {background-color:rgb(0, 0, 0);}
+#page-three {background-color:rgb(0, 0, 0);}
+#page-four {background-color:rgb(0, 0, 0);}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 1224px) {
+}
