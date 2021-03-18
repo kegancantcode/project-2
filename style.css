@@ -47,9 +47,23 @@ h2 {font-family:"KCRudeLife";
   background-size: 1000px;
   background-position: center center;
 }
-#page-two {background-color:rgb(0, 0, 0);}
-#page-three {background-color:rgb(0, 0, 0);}
-#page-four {background-color:rgb(0, 0, 0);}
+#page-two 
+{background-color:rgb(0, 0, 0);
+background-image: url("../images/gallery.png");
+background-size: cover;
+background-position: center center;
+}
+#page-three {background-color:rgb(0, 0, 0);
+background-image: url("../images/about.png");
+background-size: cover;
+background-position: center center;
+}
+#page-four {background-color:rgb(0, 0, 0);
+  background-image: url("../images/talk.png");
+  background-size: cover;
+  background-position: center center;
+}
+
 @media only screen and (min-width: 768px) {
 }
 @media only screen and (min-width: 1224px) {
